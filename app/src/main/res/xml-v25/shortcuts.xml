@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="set_96_hz"
+        android:shortcutLongLabel="@string/set_96_hz"
+        android:shortcutShortLabel="@string/set_96_hz">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="96"
+            android:targetClass="com.example.s20.refresh.ShortCutsActivity"
+            android:targetPackage="com.example.s20.refresh" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="set_120_hz"
+        android:shortcutLongLabel="@string/set_120_hz"
+        android:shortcutShortLabel="@string/set_120_hz">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="120"
+            android:targetClass="com.example.s20.refresh.ShortCutsActivity"
+            android:targetPackage="com.example.s20.refresh" />
+    </shortcut>
+</shortcuts>

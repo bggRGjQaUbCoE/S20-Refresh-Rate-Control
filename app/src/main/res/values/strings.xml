@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">S20 Refresh Rate Control</string>
+    <string name="set_96_hz">Set 96HZ</string>
+    <string name="set_120_hz">Set 120HZ</string>
+</resources>
